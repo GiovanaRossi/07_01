@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    width: 100%;
+    height: 700px;
+}
+header h1{
+    display: inline-block;
+    position: absolute;
+    color: black;
+    margin-left: 33%;
+    margin-top: 19%;
+    font-size: 50px;
+}
+main img{
+    width: 90%;
+    height: 600px;
+    margin-left: 60px;
+}
+main h1{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+main p{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    margin-right: 20px;
+}
+main p:last-child{
+    color: palevioletred;
+}
+main p:nth-last-child(2){
+    color: orange;
+}
+footer{
+    margin-top: 80px;
+    background-color: rgb(177, 174, 174);
+    width: 100%;
+    height: 600px;
+    float: left;
+    display: block;
+}
+footer img{
+    width: 96%;
+    display: flex;
+    float: left;
+    margin-left: 14px;
+}
+footer section{
+    width: 33%;
+    display: block;
+    float: left;
+}
+footer h2{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 14px;
+}
+footer section h2{
+    color: white;
+}
+footer p{
+    margin-left: 14px;
+    margin-top: 5%;
+}
+footer section h4{
+    margin-left: 15%;
+    margin-top: 13%;
+    color:black;
+    display: inline-block;    
+}
+footer section a[href*="http://www.clicrbs.com.br"]{
+    background-color: rgb(255, 225, 0);
+    width: 19%;
+    height: 40px;
+    border-radius: 48%;
+    margin-top: 6%;
+    margin-left: 4%;
+    display: inline-block;
+}
+footer section a[href*="http://www.senacrs.com.br"]{
+    background-color: orange;
+    width: 19%;
+    height: 40px;
+    border-radius: 48%;
+    margin-top: 6%;
+    margin-left: 4%;
+    display: inline-block;   
+}
+footer section a[href*="http://www.terra.com.br"]{
+    background-color: palevioletred;
+    width: 22%;
+    height: 41px;
+    border-radius: 48%;
+    margin-top: 6%;
+    margin-left: 4%;
+    display: inline-block;
+}
